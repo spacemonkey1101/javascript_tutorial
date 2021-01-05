@@ -99,6 +99,28 @@ message.slice(-7) //"funny!"
 message.replace('h','H') //"Haha this is so funny!"
 message.replaceAll('h','H') //"HaHa this is so funny!"
 
+//string template literals
+`i am counting ${ 5 + 10 } days"` //"i am counting 10 days  //use back-tick
 
+// 4. null
+//"intential absence of value"
+//something we assign to a variable 
+let loggedInUser = null //at start
 
+//5. undefined
+//just not there
+let msg = "hello"
+msg[88] //undefined 
 
+//Math library
+Math.PI
+Math.E
+Math.round(3.9) //4
+Math.sqrt(4) //2
+Math.floor(21.555) //21
+Math.ceil(21.444) //22
+Math.random() // num between 0 and 1
+
+Math.random() * 10 // num between 0 and 10
+Math.floor(Math.random() * 10 ) //whole num between 0 and 10
+Math.floor(Math.random() * 10 ) + 1 //whole num from 1 to 10
