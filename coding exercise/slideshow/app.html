@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>SlideShow</title>
+
+    <style>
+        body {
+            background: #004ff9;
+            background: linear-gradient(to right, #004ff9, #fff94c);
+            
+        }
+        #container{
+            justify-content: center;
+            width: 600px;
+            margin: 100px 250px; 
+            padding: 50px 100px;   
+            text-align: center;
+        }
+
+        button {
+            padding: 20px 20px;
+            margin: 20px 10px 0 0 ;
+            border-radius: 0.12em;
+            box-sizing: border-box;
+            text-decoration: none;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <img id="imageFrame" src='images/image1.jpg' width="450px" height="250px"><br>
+        <div>
+            <button id='buttonStart' class="buttonStyle" >Start Slide Show</button>
+            <button id='buttonEnd' class="buttonStyle" >End Slide Show</button>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

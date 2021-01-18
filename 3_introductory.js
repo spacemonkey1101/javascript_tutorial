@@ -13,3 +13,5 @@ var age = prompt("Enter your age") //"21"
 //takes in a string input
 parseInt(age) //21
 
+//adding script tag in a html file
+//<script src="app.js" />
